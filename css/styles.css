@@ -1,0 +1,124 @@
+/* styles.css */
+.main-section-figure img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* To maintain aspect ratio */
+}
+.media-container {
+    margin-left: 20px; /* Adjust the left margin as needed */
+}
+
+/* Height, Width & Max Width */
+body {
+    width: 100%; /* Relative to its parent */
+    max-width: 1200px; /* Absolute unit */
+}
+
+.main-section-figure img {
+    width: 50%; /* Relative to its parent */
+    height: auto; /* Automatically maintain aspect ratio */
+}
+
+/* Box Model & Alignment */
+body {
+    padding: 20px; /* Shorthand method to add padding to all sides */
+    margin: 0 auto; /* Align the body center */
+}
+
+header, footer {
+    text-align: center; /* Center align text */
+}
+
+.main-section {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding to all sides */
+}
+
+#bio {
+    text-align: left; /* Align text to the left */
+}
+
+.main-section-figure {
+    padding: 10px; /* Add padding to all sides */
+    margin: 20px auto; /* Add margins to the top and bottom and align center */
+}
+
+#quote q {
+    padding: 5px; /* Add padding to all sides */
+    font-weight: bold;
+    }
+
+.media-container iframe {
+    padding: 10px; /* Add padding to all sides */
+}
+
+/* Borders & Box Shadow */
+header, footer {
+    border: 1px solid #000; /* Border shorthand declaration */
+}
+
+.main-section-figure img {
+    border-radius: 5px; /* Round the corners of the images */
+}
+
+#relative-path-image {
+    border: 2px solid rgb(255, 0, 0); /* Border shorthand declaration */
+    border-radius: 5px; /* Round the corners of the images */
+}
+
+#absolute-path-image {
+    border: 2px solid rgb(0, 0, 255); /* Border shorthand declaration */
+    border-radius: 5px; /* Round the corners of the images */
+}
+
+.media-container iframe {
+    border: 1px solid #000; /* Border shorthand declaration */
+    border-radius: 5px; /* Round the corners of the iframe */
+}
+
+#quote q {
+    border: 1px solid #f00; /* Border shorthand declaration */
+    box-shadow: 2px 2px 2px #000; /* Box shadow with 3 side */
+}
+
+h1, h2 {
+    font-variant: small-caps;
+    color: #008000; /* Green */
+  }
+  
+  /* Make font bold, set variant to small-caps, and increase font-size for figcaption */
+  figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2em; /* Adjust font size as needed */
+  }
+
+/* Colour */
+#relative-path-image figcaption {
+    color: #ff0000; /* Font color matching the border color */
+}
+
+#absolute-path-image figcaption {
+    color: #0000ff; /* Font color matching the border color */
+}
+
+h1, h2 {
+    color: #008000; /* Set font-color using a named color */
+}
+
+/* Background */
+header, footer {
+    background: linear-gradient(to right, #ff0000, #0000ff); /* Gradient background */
+    text-align: center;
+}
+
+.main-section {
+    background-color: hsla(240, 100%, 50%, 0.3); /* Background color */
+}
+
+#absolute-path-image {
+    background-color: hsla(120, 100%, 50%, 0.3); /* Background color */
+}
+
+#relative-path-image {
+    background-color: hsla(60, 100%, 50%, 0.3); /* Background color */
+}
