@@ -1,10 +1,26 @@
-/* styles.css */
-.main-section-figure img {
-    width: 300px; /* Adjust the width as needed */
-    height: auto; /* To maintain aspect ratio */
+/* Font */
+html {
+    font: 20px/1.5 Arial, sans-serif; /* Shorthand method with all properties */
 }
-.media-container {
-    margin-left: 20px; /* Adjust the left margin as needed */
+
+h1, h2 {
+    font-variant: small-caps; /* Set font variant to small-caps */
+}
+
+figcaption {
+    font-weight: bold; /* Make font bold */
+    font-variant: small-caps; /* Set variant to small-caps */
+    font-size: 1.2em; /* Increase font size */
+}
+
+q {
+    font-style: italic; /* Set font style to italics */
+    font-family: cursive; /* Set font family to cursive */
+    font-size: 1.2em; /* Increase font size */
+}
+
+footer p {
+    font-size: 0.8em; /* Decrease font size */
 }
 
 /* Height, Width & Max Width */
@@ -45,7 +61,7 @@ header, footer {
 #quote q {
     padding: 5px; /* Add padding to all sides */
     font-weight: bold;
-    }
+}
 
 .media-container iframe {
     padding: 10px; /* Add padding to all sides */
@@ -79,18 +95,6 @@ header, footer {
     border: 1px solid #f00; /* Border shorthand declaration */
     box-shadow: 2px 2px 2px #000; /* Box shadow with 3 side */
 }
-
-h1, h2 {
-    font-variant: small-caps;
-    color: #008000; /* Green */
-  }
-  
-  /* Make font bold, set variant to small-caps, and increase font-size for figcaption */
-  figcaption {
-    font-weight: bold;
-    font-variant: small-caps;
-    font-size: 1.2em; /* Adjust font size as needed */
-  }
 
 /* Colour */
 #relative-path-image figcaption {
