@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Assignment #2 -->
+    <!-- Name: Yeonhwa Choi-->
+    <!-- Student Number: 8887633 -->
+    <!-- Subject: PROG1247 Sec1 -->
+    
+    <header>
+        <h1 id="header-heading" class="headings">HTML & CSS for Beginners</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact</h2>
+        <form name="contact_form" id="contact_form" method="post" action="contact.php">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" autofocus autocomplete="off" required>
+            </div>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" required>
+            </div>
+            <div>
+                <label for="color">Favorite Colour</label>
+                <input type="color" name="color" id="color" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" required>
+            </div>
+            <div>
+                <label for="method">Preferred Method of Contact</label>
+                <select name="method" id="method" required>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" cols="30" required></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="robot" name="robot" required>
+                <label for="robot">I am not a Robot</label>
+            </div>
+            <div>
+                <input type="submit" value="Submit"><br><br>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p><b>&copy; 2024 Yeonhwa Choi</b></p><br>
+    </footer>
+</body>
+</html>
